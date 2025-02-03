@@ -1,0 +1,77 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/titleTextBaasith"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Screen Warriors"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:title="Your App Title"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp" />
+
+    <ImageView
+        android:id="@+id/imageBaasith"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/ronaldo"
+        android:contentDescription="Baasith"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/titleTextBaasithName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Madhan Mohan"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+    <ImageView
+        android:id="@+id/imageHarish"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/neymar"
+        android:contentDescription="Harish"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/titleTextHarish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jenson"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+    <ImageView
+        android:id="@+id/imageGowdham"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/messi"
+        android:contentDescription="Gowdham"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/titleTextGowdham"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Naga Harish Madhav"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+</LinearLayout>
